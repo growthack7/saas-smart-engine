@@ -1,0 +1,37 @@
+{
+  "name": "saas-smart-engine",
+  "version": "1.0.0",
+  "description": "Motor Inteligente de Agentes para Construir Plataformas SaaS. Reglas globales y de proyecto, skills especializadas, UI/UX de nivel Apple/Airbnb, SEO-GEO, monetización con Stripe, indexación en grafos y cero alucinaciones.",
+  "main": "bin/cli.js",
+  "bin": {
+    "saas-smart-engine": "bin/cli.js",
+    "smart-saas-builder": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "init": "node bin/cli.js init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/growthack7/saas-smart-engine.git"
+  },
+  "keywords": [
+    "saas-smart-engine",
+    "saas-builder",
+    "nextjs-saas",
+    "stripe-billing",
+    "seo-geo",
+    "ui-ux-architect",
+    "graph-memory",
+    "antigravity",
+    "claude-code",
+    "skills",
+    "ai-agents",
+    "zero-hallucination-guardrails"
+  ],
+  "author": "Antigravity OS & Community",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
