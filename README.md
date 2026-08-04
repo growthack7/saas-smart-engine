@@ -24,15 +24,15 @@ El sistema funciona de forma **autónoma al instalarse o mediante el comando `/s
 
 ```mermaid
 flowchart TD
-    A[Inicio: Auto /smart] --> B{1. Clasificación: SaaS Nuevo vs. Existente}
-    B -->|SaaS Nuevo| C[2. Búsqueda & Evaluación de Skills de Máxima Reputación]
-    B -->|SaaS Existente| C
-    C --> D[3. PRD & Metodología TDD con superpowers & live-system-interconnection]
-    D --> E[4. UI/UX Nivel Superior, SEO-GEO, Monetización Stripe & VPS]
-    E --> F[5. Indexación del Codebase en Grafo: graph-codebase-memory-indexer]
-    F --> G[6. Prompts & Cadenas Fallback LLM: llm-prompt-cost-optimizer]
-    G --> H[7. Desarrollo Atómico, Webhooks Idempotentes & Bucle E2E MCP: e2e-mcp-user-tester]
-    H --> I[8. Aprendizaje Evolutivo Doble & Log en MEMORY.md / BUG_HISTORY.md]
+    A["Inicio: Auto /smart"] --> B{"1. Clasificación: SaaS Nuevo vs. Existente"}
+    B -->|"SaaS Nuevo"| C["2. Búsqueda & Evaluación de Skills de Máxima Reputación"]
+    B -->|"SaaS Existente"| C
+    C --> D["3. PRD & Metodología TDD con superpowers & live-system-interconnection"]
+    D --> E["4. UI/UX Nivel Superior, SEO-GEO, Monetización Stripe & VPS"]
+    E --> F["5. Indexación del Codebase en Grafo: graph-codebase-memory-indexer"]
+    F --> G["6. Prompts & Cadenas Fallback LLM: llm-prompt-cost-optimizer"]
+    G --> H["7. Desarrollo Atómico, Webhooks Idempotentes & Bucle E2E MCP: e2e-mcp-user-tester"]
+    H --> I["8. Aprendizaje Evolutivo Doble & Log en MEMORY.md / BUG_HISTORY.md"]
 ```
 
 ### 🔍 1. SaaS Nuevo vs. SaaS Existente:
